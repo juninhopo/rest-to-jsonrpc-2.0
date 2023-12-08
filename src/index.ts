@@ -1,4 +1,4 @@
-import { TypedJSONRPCClient } from 'json-rpc-2.0'
+'use-strict'
 
 export type RestToJSONRPCInput = {
   path: string

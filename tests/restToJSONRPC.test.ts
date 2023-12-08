@@ -10,7 +10,7 @@ test('return restToJSONRPC is correctly', () => {
     path: '/test/ping',
   })
   expect(result).toStrictEqual({
-    method: '/test/ping',
+    method: 'test_ping',
     jsonrpc: '2.0',
     params: {
       test: 'oi',

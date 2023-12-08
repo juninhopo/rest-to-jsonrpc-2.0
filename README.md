@@ -29,5 +29,7 @@ Your path the route is a method by server side.
 Method in server side.
 
 ```js
-/test/ping
+type Methods = {
+  test_ping(params: { x: string }): string,
+}
 ```

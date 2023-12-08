@@ -14,8 +14,10 @@ export type JSONRPCReturn = {
 }
 
 export function restToJSONRPC(body: RestToJSONRPCInput): JSONRPCReturn {
+  const method = body.path.replace(/\//g, '_').substring(1)
+
   const result = {
-    method: body.path,
+    method,
     jsonrpc: '2.0',
     params: body.params,
     id: body.id,

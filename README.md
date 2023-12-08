@@ -26,7 +26,7 @@ Return to JSONRPC.
 
 Your path the route is a method by server side.
 
-Method in server side.
+Methods in server side.
 
 ```js
 type Methods = {

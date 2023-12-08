@@ -1,6 +1,6 @@
 # rest-to-jsonrpc-2.0
 
-Receive the paths rest.
+Receive the paths REST.
 
 ```json
   {
@@ -14,7 +14,7 @@ Return to JSONRPC.
 
 ```js
 {
-    method: '/test/ping',
+    method: 'test_ping',
     jsonrpc: '2.0',
     params: {
       test: 'oi',

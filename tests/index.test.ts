@@ -1,4 +1,4 @@
-import { restToJSONRPC } from '.'
+import { restToJSONRPC } from '../src'
 
 test('return restToJSONRPC is correctly', () => {
   const result = restToJSONRPC({

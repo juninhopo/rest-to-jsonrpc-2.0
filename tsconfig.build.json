@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "**/__tests__/*",
+    "**/_mocks/*",
+    "src/**/*.test.ts",
+    "node_modules/aws-sdk"
+  ]
+}

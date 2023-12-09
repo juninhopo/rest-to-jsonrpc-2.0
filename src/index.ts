@@ -18,7 +18,7 @@ export const restToJSONRPC = (body: RestToJSONRPCInput): JSONRPCReturn => {
     method,
     jsonrpc: '2.0',
     params: body.params,
-    id: body.id,
+    id: body.id
   }
 
   return result

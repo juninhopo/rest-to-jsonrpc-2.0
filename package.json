@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "test": "jest",
-    "build": "tsc --declaration",
+    "build": "tsc",
     "start": "npx ts-node src/index.ts"
   },
   "author": "juninhopo",

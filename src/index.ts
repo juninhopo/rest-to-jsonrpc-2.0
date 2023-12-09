@@ -1,5 +1,3 @@
-'use-strict'
-
 export type RestToJSONRPCInput = {
   path: string
   id: string

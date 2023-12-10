@@ -1,5 +1,11 @@
-import * as channel from './index'
+import * as jsonrpc from './index'
 
-console.log(channel.getChannel())
-console.log(channel.getRepository())
-console.log(channel.sum(2, 3))
+const restToJson = jsonrpc.restToJSONRPC({
+  id: 'darlan',
+  params: {
+    test: 'oi',
+    aiai: 'filipe',
+  },
+  path: '/filipe/teste',
+})
+console.log(restToJson)

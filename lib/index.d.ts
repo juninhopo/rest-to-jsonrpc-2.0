@@ -9,7 +9,5 @@ export type JSONRPCReturn = {
     params: any;
     id: string;
 };
-export declare const getChannel: () => string;
-export declare const getRepository: () => string;
-export declare const sum: (a: number, b: number) => number;
 export declare const restToJSONRPC: (body: RestToJSONRPCInput) => JSONRPCReturn;
+export declare const sum: (a: number, b: number) => number;

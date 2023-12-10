@@ -11,12 +11,6 @@ export type JSONRPCReturn = {
   id: string
 }
 
-export const getChannel = () => 'https://youtube.com/juninhopo'
-
-export const getRepository = () => 'https://github.com/juninhopo'
-
-export const sum = (a: number, b: number) => a + b
-
 export const restToJSONRPC = (body: RestToJSONRPCInput): JSONRPCReturn => {
   const method = body.path.replace(/\//g, '_').substring(1)
 
@@ -29,3 +23,5 @@ export const restToJSONRPC = (body: RestToJSONRPCInput): JSONRPCReturn => {
 
   return result
 }
+
+export const sum = (a: number, b: number) => a + b

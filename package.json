@@ -4,6 +4,7 @@
   "description": " ",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "repository": "https://github.com/juninhopo/rest-to-jsonrpc-2.0",
   "scripts": {
     "build": "tsc --declaration",
     "dev": "nodemon --watch \"src//\" --exec \"ts-node src/sample.ts\" -e ts"
